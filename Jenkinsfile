@@ -8,9 +8,7 @@ pipeline {
     agent {
         label 'slave'
     }
-    options {
-        timestamps()
-    }
+    options {timestamps()}
     stages {
         stage("Tests") {
             steps {
