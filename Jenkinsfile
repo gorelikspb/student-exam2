@@ -2,7 +2,7 @@ properties([disableConcurrentBuilds()])
 
 pipeline {
     environment {
-        registry = "gorelikspb"
+        registry = "gorelikspb/"
         registryCredential = 'dockerhub'
     }
     agent {
